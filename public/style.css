@@ -1,0 +1,89 @@
+* {
+  font-size: 20px;
+}
+
+body {
+  padding: 1rem;
+  background-color: #dddedd;
+}
+
+main {
+  background-color: white;
+  padding: 50px 10px;
+  border-radius: 20px;
+  height: fit-content;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: self-end;
+  gap: 4px;
+}
+
+ul {
+  display: flex;
+  flex-flow: column;
+  justify-content: left;
+  list-style-type: none;
+}
+
+input,
+button {
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  outline: none;
+}
+
+input {
+  border: 1px solid lime;
+}
+
+button {
+  color: white;
+  background-color: lime;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(75, 255, 75);
+}
+
+button:active {
+  background-color: rgb(9, 189, 9);
+}
+
+footer {
+  margin-bottom: 10%;
+}
+
+.chat-display {
+  min-height: 450px;
+}
+
+.chat-display li {
+  background-color: #e8ecef;
+  padding: 15px 25px;
+  width: fit-content;
+  margin-bottom: 15px;
+  border-radius: 20px;
+  margin-left: auto;
+}
+
+.chat-display li.user {
+  margin: 0;
+  margin-bottom: 15px;
+  background-color: lime;
+}
+
+.admin {
+  font-size: 25px;
+  margin: 0 auto;
+  font-weight: bold;
+}
+
+.activity {
+  text-align: center;
+  margin-bottom: 20px;
+}
